@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+}
+
+body {
+    font-family: Verdana;
+}
+
+.main-content {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.summary {
+    float: left;
+    width: 100%;
+}
+
+.person {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 20%;
+    display: block;
+}
+
+.person-details {
+    width: 50%;
+    display: block;
+    float: right
+}
+
+.category {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.photo {
+    margin-top: 10px;
+    width: 15%;
+    float: left;
+}
