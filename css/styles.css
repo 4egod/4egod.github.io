@@ -8,16 +8,18 @@ body {
 }
 
 .summary {
-    column-count: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .person {
-    margin-top: 80px;
-    display: inline-block;
+    flex: 0 0 50%;
+    text-align: center;
 }
 
 .person-details {
-    display: inline-block;    
+    display: inline-block;   
 }
 
 .category {
